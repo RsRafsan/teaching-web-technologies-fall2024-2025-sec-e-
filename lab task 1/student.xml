@@ -19,7 +19,7 @@
       </admission_date2>
       </student2>
 
-      <student1 sr="23">
+      <student3 sr="23">
         <first_name>Clark</first_name>  
         <last_name>Kent</last_name>
       <admission_date3>
@@ -27,5 +27,5 @@
           <month>6</month>
           <year>2005</year>
       </admission_date3>
-      </student1>
+      </student3>
 </students>
