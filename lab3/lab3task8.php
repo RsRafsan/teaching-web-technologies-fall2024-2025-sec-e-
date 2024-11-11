@@ -7,7 +7,8 @@ $array = [
     [1, 'D', 'E', 'F']
 ];
 
-
+print("<html><table border='1' width='250' cellspacing ='0'><tr>");
+print("<td>");
 for ($i = 0; $i < count($array); $i++) {
     for ($j = 0; $j < count($array[$i]); $j++) {
       
@@ -23,7 +24,11 @@ for ($i = 0; $i < count($array); $i++) {
     }
     echo "\n<br>";
 }
+print("</td>");
 echo "\n<br>";
+
+
+print("<td>");
 for ($i = 0; $i < count($array); $i++) {
     for ($j = 0; $j < count($array[$i]); $j++) {
 
@@ -39,6 +44,8 @@ for ($i = 0; $i < count($array); $i++) {
     }
     echo "\n<br>";
 }
+print("</td>");
 echo "\n<br>";
+print("</tr></table></html>");
 ?>
  
